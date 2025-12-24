@@ -112,7 +112,7 @@
     <div id="canvas-container"></div>
     <canvas id="firework-canvas"></canvas>
 
-    <div id="secret-message">MERRY CHRISTMAS NA YÊU</div>
+    <div id="secret-message">MERRY CHRISTMAS BÔNG IU</div>
 
     <div id="ui-layer">
         <h1 id="main-title">Merry Xmas</h1>
@@ -131,7 +131,8 @@
     </div>
 
     <video id="input_video" style="display:none; transform: scaleX(-1)" playsinline></video>
-    <audio id="bg-music" src="./audio.mp3" loop></audio>
+    <audio id="bg-music" preload="auto" loop>
+        <source src="audio.mp3" type="audio/mpeg">
 
     <script type="module">
         import * as THREE from 'three';
